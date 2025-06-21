@@ -1,5 +1,5 @@
-import type { TransactionType } from "../hooks/TransactionsContext"
-import { useTransactionsContext } from "../hooks/TransactionsContext"
+import type { TransactionType } from "../context/TransactionsContext"
+import { useTransactionsContext } from "../context/TransactionsContext"
 const TransactionItem = ({transaction} : { transaction: TransactionType } ) => {
     const { removeTransaction } = useTransactionsContext();
     return (

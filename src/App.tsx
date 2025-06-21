@@ -2,8 +2,8 @@ import TransactionForm from './components/TransactionForm'
 import TransactionList from './components/TransactionList'
 import Header from './components/Header'
 import StatCards from './components/StatCards'
-import { TransactionProvider } from './hooks/TransactionsContext'
-import { FinanceProvider } from './hooks/useFinanceContext'
+import { TransactionProvider } from './context/TransactionsContext'
+import { FinanceProvider } from './context/useFinanceContext'
 import './App.css'
 
 function App() {

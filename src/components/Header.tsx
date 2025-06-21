@@ -1,4 +1,4 @@
-import { useFinanceContext } from "../hooks/useFinanceContext";
+import { useFinanceContext } from "../context/useFinanceContext";
 
 const Header = () => {
     const { totalAmount } = useFinanceContext();

@@ -1,4 +1,4 @@
-import { useFinanceContext } from "../../hooks/useFinanceContext"
+import { useFinanceContext } from "../../context/useFinanceContext"
 const SavingsCard = () => {
     const { savings } = useFinanceContext();
   return (

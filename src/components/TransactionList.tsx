@@ -1,4 +1,4 @@
-import { useTransactionsContext } from "../hooks/TransactionsContext"
+import { useTransactionsContext } from "../context/TransactionsContext"
 import TransactionItem from "./TransactionItem";
 const TransactionList = () => {
     const { transactions, removeAllTransactions } = useTransactionsContext();
