@@ -6,7 +6,7 @@ const SavingsCard = () => {
         <div className="stat-icon">🏦</div>
         <div className="stat-info">
             <h3>დაზოგვა</h3>
-            <span className="stat-amount" id="totalSavings">  {savings} ₾ </span>
+            <span className="stat-amount">  {savings} ₾ </span>
         </div>
     </div>
   )

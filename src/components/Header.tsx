@@ -8,7 +8,7 @@ const Header = () => {
             <h1>💰 Personal Finance Tracker</h1>
             <div className="balance-display">
                 <span className="balance-label">მთლიანი ბალანსი:</span>
-                <span className="balance-amount" id="totalBalance">{totalAmount} ₾</span>
+                <span className="balance-amount" >{totalAmount} ₾</span>
             </div>
         </header>
     );

@@ -6,7 +6,7 @@ const IncomeCard = () => {
         <div className="stat-icon">📈</div>
         <div className="stat-info">
             <h3>შემოსავალი</h3>
-            <span className="stat-amount" id="totalIncome"> {incomeAmount} ₾</span>
+            <span className="stat-amount" > {incomeAmount} ₾</span>
         </div>
     </div>
   )
