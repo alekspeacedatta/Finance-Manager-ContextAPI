@@ -296,23 +296,23 @@ body {
 
 @media (max-width: 768px) {
   .header {
-      flex-direction: column;
-      text-align: center;
-      gap: 15px;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
   }
-  
+
   .transaction-form {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
-  
+
   .transactions-header {
-      flex-direction: column;
-      gap: 15px;
+    flex-direction: column;
+    gap: 15px;
   }
-  
+
   .transaction-item {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 }
